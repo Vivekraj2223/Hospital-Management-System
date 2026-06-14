@@ -38,13 +38,6 @@ public class Login extends JFrame implements ActionListener {
         jPasswordField.setBackground(new Color(255, 179, 0));
         add(jPasswordField);
 
-        ImageIcon imageIcon = new ImageIcon(ClassLoader.getSystemResource("icon/login.png"));
-        Image i1 = imageIcon.getImage().getScaledInstance(500, 500, Image.SCALE_DEFAULT);
-        ImageIcon imageIcon1 = new ImageIcon(i1);
-        JLabel label = new JLabel(imageIcon1);
-        label.setBounds(320, -30, 400, 300);
-        add(label);
-
         b1 = new JButton("Login");
         b1.setBounds(40, 140, 120, 30);
         b1.setFont(new Font("serif", Font.BOLD, 15));
